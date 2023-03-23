@@ -1,3 +1,6 @@
+//Leia uma temperatura a qual o usuário irá o Valor e a escala atual: (Fahrenheit, Celsius, Kelvin)
+//e informar a escala para qual deseja converter.
+
 #include <stdio.h>
 
 int main() {

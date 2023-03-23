@@ -1,3 +1,5 @@
+//Informar se um número inteiro está ou não dentro de um intervalo de 2 número
+
 #include <stdio.h>
 
 int main() {
