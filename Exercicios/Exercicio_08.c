@@ -16,7 +16,6 @@ int main() {
     printf("Digite a escala para qual deseja converter (C, F, K): ");
     scanf(" %c", &escala_convertida);
 
-    // Realiza a conversão de acordo com a escala atual e a escala convertida escolhidas pelo usuário
     switch(escala_atual) {
         case 'C':
             if(escala_convertida == 'F') {
@@ -44,7 +43,6 @@ int main() {
             return 1;
     }
 
-    // Exibe a temperatura convertida
     printf("Temperatura convertida: %.2f %c\n", temperatura, escala_convertida);
 
     return 0;
